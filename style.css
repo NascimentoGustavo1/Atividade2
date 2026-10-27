@@ -1,0 +1,77 @@
+/* Cor de fundo de toda a página */
+body{
+    background-color: rgb(177, 111, 177);
+}
+
+h1{
+    color: blue;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 40px;
+    text-decoration-line: underline;
+    text-decoration-style:wavy;
+     border-style: dotted;
+    border-color: rgb(122, 6, 122);
+    border-width: 3px;
+    
+}
+
+p{
+    font-size: medium;
+    font-size: 23px;
+}
+
+.destaque {
+    color: #FFFF00;
+    font-weight: bold;
+    font-size: 28px;
+    text-shadow: 2px 2px 8px #FF00FF;
+    text-decoration: underline wavy #FF00FF;
+}
+
+#funcionamento {
+    text-align: center;
+    color: blue;
+}
+
+#tipos{
+    text-align: center;
+    color: blue;
+}
+
+h2, h3, h4 {
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+}
+
+ul {
+    list-style-type: square;
+    color: #4B0082;
+    border: 4px dashed purple;
+    font-size: 25px;
+}
+
+ol{
+    list-style-type: square;
+    color: #4B0082;
+    border: 4px dashed purple;
+    font-size: 25px;
+}
+
+a {
+  color: #0066cc;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+/* Efeito visual quando o mouse passa sobre um link */
+a:hover {
+  color: #ff0000;
+  text-decoration: underline;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    border: 3px solid purple;
+}
